@@ -2,33 +2,33 @@
 
 Repositorio **solo de binarios** de Kolera GDN. No contiene el código fuente.
 
-## Última versión: 1.0.101
+## Última versión: 1.0.102
 
 ### macOS
 
-- `Kolera GDN-1.0.101-arm64.dmg` / `-arm64-mac.zip`
+- `Kolera GDN-1.0.102-arm64.dmg` / `-arm64-mac.zip`
 - Firma ad-hoc, sin notarización. Gatekeeper puede avisar: clic derecho → Abrir.
 
 ### Windows
 
-- `Kolera GDN Setup 1.0.101-x64.exe` (Intel/AMD)
-- `Kolera GDN Setup 1.0.101-arm64.exe` (ARM)
-- `Kolera GDN-1.0.101-win-x64.zip` / `-win-arm64.zip` (portable)
+- `Kolera GDN Setup 1.0.102-x64.exe` (Intel/AMD)
+- `Kolera GDN Setup 1.0.102-arm64.exe` (ARM)
+- `Kolera GDN-1.0.102-win-x64.zip` / `-win-arm64.zip` (portable)
 - Sin certificado de CA. SmartScreen puede avisar: **Más información → Ejecutar de todas formas**.
 - ARM64 no incluye `cloudflared`.
 
 ### Linux
 
-- `Kolera GDN-1.0.101-linux-x64.zip`
-- `Kolera GDN-1.0.101-linux-arm64.zip`
+- `Kolera GDN-1.0.102-linux-x64.zip`
+- `Kolera GDN-1.0.102-linux-arm64.zip`
 - Portable; `chmod +x "Kolera GDN"`.
 
 ## Integridad
 
-Verifica `SHA256SUMS-1.0.101.txt` antes de instalar:
+Verifica `SHA256SUMS-1.0.102.txt` antes de instalar:
 
 ```bash
-shasum -a 256 -c SHA256SUMS-1.0.101.txt
+shasum -a 256 -c SHA256SUMS-1.0.102.txt
 ```
 
 ## Notas
